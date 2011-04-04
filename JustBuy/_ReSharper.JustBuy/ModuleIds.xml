@@ -1,0 +1,4 @@
+<Modules>
+  <Module PersistentId="9BA940AF-5C3A-4FB3-886D-71C48035126B" ModuleId="JustBuy.Web" />
+  <Module PersistentId="37B2BBDB-E93E-4963-BC3E-983D4A01EFD2" ModuleId="JustBuy.Web.Tests" />
+</Modules>

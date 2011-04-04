@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm9="http://schemas.microsoft.com/dsltools/UseCaseModel"
+  dslVersion="1.0.0.0"
+  Id="d8f62c72-a7b2-427c-8b47-e5d68b739700"
+  name="JustBuy.Sketches" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <actor
+        Id="cd4a2ded-a65f-442c-8fff-3d0021917fd7"
+        name="Actor1"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="e541bd3a-2131-4e9f-b17e-29c21df42ac9"
+        name="New Products"
+        isAbstract="false"
+        isLeaf="false">
+        <generalsInternal>
+          <generalization
+            Id="c9b513bf-f42f-485a-9dd8-c522649d73d1"
+            isSubstitutable="false">
+            <useCaseMoniker
+              Id="322d2195-c447-4944-a560-4325b96c6a2f"
+              LastKnownName="Home"
+              LastKnownLocation="JustBuy.Sketches.uml" />
+          </generalization>
+          <generalization
+            Id="7adb2357-dcdf-4128-843f-4c7cd7f18fc3"
+            isSubstitutable="false">
+            <useCaseMoniker
+              Id="a54f5502-6af0-45a8-931f-770bca0b1cbb"
+              LastKnownName="Products"
+              LastKnownLocation="JustBuy.Sketches.uml" />
+          </generalization>
+        </generalsInternal>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="322d2195-c447-4944-a560-4325b96c6a2f"
+        name="Home"
+        isAbstract="false"
+        isLeaf="false">
+        <generalsInternal>
+          <generalization
+            Id="09e7e480-fcff-4ba6-97d1-dbbdda53e080"
+            isSubstitutable="false">
+            <useCaseMoniker
+              Id="9bf9fff8-2724-4e91-9a26-3d233216afa8"
+              LastKnownName="Administration"
+              LastKnownLocation="JustBuy.Sketches.uml" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association
+            Id="d7632e2d-8d83-472e-be2c-33abef86975f"
+            isDerived="false"
+            sourceEndRoleName="Home"
+            targetEndRoleName="Products"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="a54f5502-6af0-45a8-931f-770bca0b1cbb"
+              LastKnownName="Products"
+              LastKnownLocation="JustBuy.Sketches.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="26cbeed1-766e-44ec-b424-52454d588e4d"
+                  name="Home"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="82ba3280-c2e5-477a-beb4-7b1424c33fe6"
+                  name="Products"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="83bef723-2031-47fa-966e-014f4cd9ec3c"
+        name="Search"
+        isAbstract="false"
+        isLeaf="false">
+        <generalsInternal>
+          <generalization
+            Id="eda941ec-d5fe-438f-9d03-3a3c12ea4558"
+            isSubstitutable="false">
+            <useCaseMoniker
+              Id="322d2195-c447-4944-a560-4325b96c6a2f"
+              LastKnownName="Home"
+              LastKnownLocation="JustBuy.Sketches.uml" />
+          </generalization>
+        </generalsInternal>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="b9ded80b-32e4-463b-9b1d-92858da9fef7"
+        name="MyAccount"
+        isAbstract="false"
+        isLeaf="false">
+        <generalsInternal>
+          <generalization
+            Id="62a5fb29-c543-46c6-a35b-9c63a9c3613c"
+            isSubstitutable="false">
+            <useCaseMoniker
+              Id="322d2195-c447-4944-a560-4325b96c6a2f"
+              LastKnownName="Home"
+              LastKnownLocation="JustBuy.Sketches.uml" />
+          </generalization>
+        </generalsInternal>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="a1d6b069-b98a-42fc-9eb0-37c0025535d0"
+        name="Blog"
+        isAbstract="false"
+        isLeaf="false">
+        <generalsInternal>
+          <generalization
+            Id="451d0a7a-f9a2-4a36-a882-3b8fbad3f08c"
+            isSubstitutable="false">
+            <useCaseMoniker
+              Id="322d2195-c447-4944-a560-4325b96c6a2f"
+              LastKnownName="Home"
+              LastKnownLocation="JustBuy.Sketches.uml" />
+          </generalization>
+        </generalsInternal>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="6bed0652-5dbd-418c-9f51-97f54a257e34"
+        name="Contact"
+        isAbstract="false"
+        isLeaf="false">
+        <generalsInternal>
+          <generalization
+            Id="0e3f3b6b-1669-4ed4-9c1f-1dba3b95b69e"
+            isSubstitutable="false">
+            <useCaseMoniker
+              Id="322d2195-c447-4944-a560-4325b96c6a2f"
+              LastKnownName="Home"
+              LastKnownLocation="JustBuy.Sketches.uml" />
+          </generalization>
+        </generalsInternal>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="a54f5502-6af0-45a8-931f-770bca0b1cbb"
+        name="Products"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="4b869172-47f5-4935-9965-1d68479698cb"
+            isDerived="false"
+            sourceEndRoleName="Products"
+            targetEndRoleName="ProductsDetails"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="c0bc5c47-bdf2-46bc-866f-d591934772e3"
+              LastKnownName="ProductsDetails"
+              LastKnownLocation="JustBuy.Sketches.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="2d9984b6-6766-4893-8cd8-67e51ffb10eb"
+                  name="Products"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d94411ee-554f-4ec0-a2da-39eb0e5f29d5"
+                  name="ProductsDetails"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="c0bc5c47-bdf2-46bc-866f-d591934772e3"
+        name="ProductsDetails"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="9bf9fff8-2724-4e91-9a26-3d233216afa8"
+        name="Administration"
+        isAbstract="false"
+        isLeaf="false">
+        <generalsInternal>
+          <generalization
+            Id="6e0e5b17-03d5-4990-aef7-92044121842d"
+            isSubstitutable="false">
+            <useCaseMoniker
+              Id="6e77fe40-9ab6-4050-931a-8425f6959092"
+              LastKnownName="Localization"
+              LastKnownLocation="JustBuy.Sketches.uml" />
+          </generalization>
+          <generalization
+            Id="6af77b92-fef0-4294-9f81-9b7581e6b5ee"
+            isSubstitutable="false">
+            <useCaseMoniker
+              Id="3a60b74b-172e-42f9-8c03-308a5e53321c"
+              LastKnownName="GlobalSettings"
+              LastKnownLocation="JustBuy.Sketches.uml" />
+          </generalization>
+          <generalization
+            Id="c3743c12-23ed-44bf-a08b-96eb3a2f9555"
+            isSubstitutable="false">
+            <useCaseMoniker
+              Id="e03405f7-2f60-4aa1-8364-b8acc478096f"
+              LastKnownName="Products"
+              LastKnownLocation="JustBuy.Sketches.uml" />
+          </generalization>
+          <generalization
+            Id="c279fb13-4cc3-4966-abc2-ffa703ceb23f"
+            isSubstitutable="false">
+            <useCaseMoniker
+              Id="86497bb6-7e34-462c-af15-227b6187fdc0"
+              LastKnownName="Reports"
+              LastKnownLocation="JustBuy.Sketches.uml" />
+          </generalization>
+          <generalization
+            Id="041bbb65-e96a-40c7-9ddb-6cb9139bba9f"
+            isSubstitutable="false">
+            <useCaseMoniker
+              Id="4d81e9ed-7672-4aed-967d-9d5324392132"
+              LastKnownName="UserSettings"
+              LastKnownLocation="JustBuy.Sketches.uml" />
+          </generalization>
+          <generalization
+            Id="736d1124-289a-4044-b5c4-054d74361802"
+            isSubstitutable="false">
+            <useCaseMoniker
+              Id="93202b55-274d-40cb-ae2e-1c5d42e402b9"
+              LastKnownName="E-mailSettings"
+              LastKnownLocation="JustBuy.Sketches.uml" />
+          </generalization>
+        </generalsInternal>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="6e77fe40-9ab6-4050-931a-8425f6959092"
+        name="Localization"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="3a60b74b-172e-42f9-8c03-308a5e53321c"
+        name="GlobalSettings"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="e03405f7-2f60-4aa1-8364-b8acc478096f"
+        name="Products"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="86497bb6-7e34-462c-af15-227b6187fdc0"
+        name="Reports"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="4d81e9ed-7672-4aed-967d-9d5324392132"
+        name="UserSettings"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="93202b55-274d-40cb-ae2e-1c5d42e402b9"
+        name="E-mailSettings"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>

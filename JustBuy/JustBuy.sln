@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JustBuy.Web", "JustBuy.Web\JustBuy.Web.csproj", "{9BA940AF-5C3A-4FB3-886D-71C48035126B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JustBuy.Web.Tests", "JustBuy.Web.Tests\JustBuy.Web.Tests.csproj", "{37B2BBDB-E93E-4963-BC3E-983D4A01EFD2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DB", "DB", "{367CF115-9DD6-4F30-A74A-42989D7D2334}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{463E1F55-A4FF-4186-BB9C-F1C901446750}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{8768E005-969C-4D2B-8A87-3B394B6564DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{008B21E1-41FD-4E02-AFEC-67F3A143E08B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sketches", "Sketches", "{D2E693CD-EBF7-4478-9289-966A5ACC64D3}"
+EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "JustBuy.Sketches", "JustBuy.Sketches\JustBuy.Sketches.modelproj", "{37AB9A69-32A9-437C-8D89-945B54C2F54A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BA940AF-5C3A-4FB3-886D-71C48035126B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BA940AF-5C3A-4FB3-886D-71C48035126B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BA940AF-5C3A-4FB3-886D-71C48035126B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BA940AF-5C3A-4FB3-886D-71C48035126B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37B2BBDB-E93E-4963-BC3E-983D4A01EFD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37B2BBDB-E93E-4963-BC3E-983D4A01EFD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37B2BBDB-E93E-4963-BC3E-983D4A01EFD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37B2BBDB-E93E-4963-BC3E-983D4A01EFD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37AB9A69-32A9-437C-8D89-945B54C2F54A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37AB9A69-32A9-437C-8D89-945B54C2F54A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37AB9A69-32A9-437C-8D89-945B54C2F54A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37AB9A69-32A9-437C-8D89-945B54C2F54A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{37B2BBDB-E93E-4963-BC3E-983D4A01EFD2} = {8768E005-969C-4D2B-8A87-3B394B6564DC}
+		{9BA940AF-5C3A-4FB3-886D-71C48035126B} = {008B21E1-41FD-4E02-AFEC-67F3A143E08B}
+		{37AB9A69-32A9-437C-8D89-945B54C2F54A} = {D2E693CD-EBF7-4478-9289-966A5ACC64D3}
+	EndGlobalSection
+EndGlobal

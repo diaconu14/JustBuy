@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="3d87a5b1-c26e-445c-8fa0-e033b72b5082" name="JustBuyMap" linkedPackageId="ea59dad7-9e52-497f-8217-b115b7847829" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <profileInstances>
+    <packageHasProfileInstances Id="ad231466-fed3-4a6b-8855-6f68fc0e1a5a">
+      <profileInstance Id="327ce634-6049-43c4-8db4-0c30d018d0af" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="546f42ba-3372-4524-9f8d-4984a895bea6">
+      <profileInstance Id="ff3c2eae-6db1-4a68-aa7f-5280557db7e3" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="670a46f9-c018-4f2f-8874-61b6dbdaa9d0" name="Actor1" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="cd4a2ded-a65f-442c-8fff-3d0021917fd7" />
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="cd938c44-5425-46f6-8948-182b2ef563e7" name="New Products" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="e541bd3a-2131-4e9f-b17e-29c21df42ac9" />
+        <generalsInternal>
+          <generalization Id="c83d4574-e983-468b-98ee-a7fe0af878bb" isSubstitutable="false">
+            <useCaseMoniker Id="680838d6-0d60-4874-b6a2-60e5038481d7" LastKnownName="Home" />
+            <elementDefinition Id="c9b513bf-f42f-485a-9dd8-c522649d73d1" />
+          </generalization>
+          <generalization Id="27c2bb76-d615-434e-93e4-2c6bba198f0e" isSubstitutable="false">
+            <useCaseMoniker Id="5621d303-1de7-403b-90b5-3afa3d538ff0" LastKnownName="Products" />
+            <elementDefinition Id="7adb2357-dcdf-4128-843f-4c7cd7f18fc3" />
+          </generalization>
+        </generalsInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="680838d6-0d60-4874-b6a2-60e5038481d7" name="Home" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="322d2195-c447-4944-a560-4325b96c6a2f" />
+        <generalsInternal>
+          <generalization Id="d9fbb562-1e5a-42ba-879a-722aaa5a69ea" isSubstitutable="false">
+            <useCaseMoniker Id="bf64b9d3-7a69-4804-b0f9-61bd3503cb88" LastKnownName="Administration" />
+            <elementDefinition Id="09e7e480-fcff-4ba6-97d1-dbbdda53e080" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association Id="24f64384-be5f-41be-be57-6004e270a059" isDerived="false" sourceEndRoleName="Home" targetEndRoleName="Products" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="5621d303-1de7-403b-90b5-3afa3d538ff0" LastKnownName="Products" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7ee00099-fae4-4f43-88eb-a64a10848bfa" name="Home" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="26cbeed1-766e-44ec-b424-52454d588e4d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9cac9ad9-0fb2-4111-843a-067b3ace7104" name="Products" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="82ba3280-c2e5-477a-beb4-7b1424c33fe6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="d7632e2d-8d83-472e-be2c-33abef86975f" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="d8f7be7c-716f-4ca2-a272-c67376fdb562" name="Search" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="83bef723-2031-47fa-966e-014f4cd9ec3c" />
+        <generalsInternal>
+          <generalization Id="3ce48ad9-479b-4694-a905-dfdf879c7248" isSubstitutable="false">
+            <useCaseMoniker Id="680838d6-0d60-4874-b6a2-60e5038481d7" LastKnownName="Home" />
+            <elementDefinition Id="eda941ec-d5fe-438f-9d03-3a3c12ea4558" />
+          </generalization>
+        </generalsInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="aeb56404-7ac8-4ce3-95e5-522a859f96e3" name="MyAccount" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="b9ded80b-32e4-463b-9b1d-92858da9fef7" />
+        <generalsInternal>
+          <generalization Id="5e161897-84b7-41dc-a79d-2a2e672f46a0" isSubstitutable="false">
+            <useCaseMoniker Id="680838d6-0d60-4874-b6a2-60e5038481d7" LastKnownName="Home" />
+            <elementDefinition Id="62a5fb29-c543-46c6-a35b-9c63a9c3613c" />
+          </generalization>
+        </generalsInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="48df2523-2ba4-44fe-b62a-7b61bbc3b152" name="Blog" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="a1d6b069-b98a-42fc-9eb0-37c0025535d0" />
+        <generalsInternal>
+          <generalization Id="9eddfe4d-3c5c-44cd-b882-51818133fbf4" isSubstitutable="false">
+            <useCaseMoniker Id="680838d6-0d60-4874-b6a2-60e5038481d7" LastKnownName="Home" />
+            <elementDefinition Id="451d0a7a-f9a2-4a36-a882-3b8fbad3f08c" />
+          </generalization>
+        </generalsInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="020c46a2-0c41-4647-82b1-1483bdd547a4" name="Contact" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="6bed0652-5dbd-418c-9f51-97f54a257e34" />
+        <generalsInternal>
+          <generalization Id="7b72d3d2-0a5e-48f5-9e90-b48c61f5c34b" isSubstitutable="false">
+            <useCaseMoniker Id="680838d6-0d60-4874-b6a2-60e5038481d7" LastKnownName="Home" />
+            <elementDefinition Id="0e3f3b6b-1669-4ed4-9c1f-1dba3b95b69e" />
+          </generalization>
+        </generalsInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="5621d303-1de7-403b-90b5-3afa3d538ff0" name="Products" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="a54f5502-6af0-45a8-931f-770bca0b1cbb" />
+        <targetEnds>
+          <association Id="3fabc9d1-23ac-40bd-b126-f684b2abb9e9" isDerived="false" sourceEndRoleName="Products" targetEndRoleName="ProductsDetails" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="94a4e9eb-a7f7-4c5c-8098-28289da8a32d" LastKnownName="ProductsDetails" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="026d3a68-d4a8-4722-b988-cb7f04404de9" name="Products" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="2d9984b6-6766-4893-8cd8-67e51ffb10eb" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="37f686d5-5bfa-4f1f-a64f-ca5071a5fba6" name="ProductsDetails" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="d94411ee-554f-4ec0-a2da-39eb0e5f29d5" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="4b869172-47f5-4935-9965-1d68479698cb" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="94a4e9eb-a7f7-4c5c-8098-28289da8a32d" name="ProductsDetails" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="c0bc5c47-bdf2-46bc-866f-d591934772e3" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="bf64b9d3-7a69-4804-b0f9-61bd3503cb88" name="Administration" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="9bf9fff8-2724-4e91-9a26-3d233216afa8" />
+        <generalsInternal>
+          <generalization Id="984fcf46-e008-4a8a-9e77-335b0b451268" isSubstitutable="false">
+            <useCaseMoniker Id="911cafd7-4bad-46d1-a612-e54005c3d5d5" LastKnownName="Localization" />
+            <elementDefinition Id="6e0e5b17-03d5-4990-aef7-92044121842d" />
+          </generalization>
+          <generalization Id="5fe6251b-af7c-4337-a479-2858a448ea93" isSubstitutable="false">
+            <useCaseMoniker Id="64638a6c-fefa-4756-b321-6570d2b783b8" LastKnownName="GlobalSettings" />
+            <elementDefinition Id="6af77b92-fef0-4294-9f81-9b7581e6b5ee" />
+          </generalization>
+          <generalization Id="7d8a0268-06f4-4c40-9908-d99b895bd36a" isSubstitutable="false">
+            <useCaseMoniker Id="9c807b1d-98be-4203-b1b3-c1f6890e1a14" LastKnownName="Products" />
+            <elementDefinition Id="c3743c12-23ed-44bf-a08b-96eb3a2f9555" />
+          </generalization>
+          <generalization Id="d6ee1d67-0b9d-450d-b5c0-8186da45db90" isSubstitutable="false">
+            <useCaseMoniker Id="33dd9a46-3509-4ea8-8883-84ed04f0dd11" LastKnownName="Reports" />
+            <elementDefinition Id="c279fb13-4cc3-4966-abc2-ffa703ceb23f" />
+          </generalization>
+          <generalization Id="6679a77d-f874-485b-81ce-97263313c4d7" isSubstitutable="false">
+            <useCaseMoniker Id="d81f6731-5a53-4ae8-a2e1-a22baedaa9b5" LastKnownName="UserSettings" />
+            <elementDefinition Id="041bbb65-e96a-40c7-9ddb-6cb9139bba9f" />
+          </generalization>
+          <generalization Id="db8e49d2-7e3b-457a-880e-815484c8e81a" isSubstitutable="false">
+            <useCaseMoniker Id="5c339d31-938b-4ca8-af39-4344534458a2" LastKnownName="E-mailSettings" />
+            <elementDefinition Id="736d1124-289a-4044-b5c4-054d74361802" />
+          </generalization>
+        </generalsInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="911cafd7-4bad-46d1-a612-e54005c3d5d5" name="Localization" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="6e77fe40-9ab6-4050-931a-8425f6959092" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="64638a6c-fefa-4756-b321-6570d2b783b8" name="GlobalSettings" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="3a60b74b-172e-42f9-8c03-308a5e53321c" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="9c807b1d-98be-4203-b1b3-c1f6890e1a14" name="Products" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="e03405f7-2f60-4aa1-8364-b8acc478096f" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="33dd9a46-3509-4ea8-8883-84ed04f0dd11" name="Reports" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="86497bb6-7e34-462c-af15-227b6187fdc0" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="d81f6731-5a53-4ae8-a2e1-a22baedaa9b5" name="UserSettings" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="4d81e9ed-7672-4aed-967d-9d5324392132" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="5c339d31-938b-4ca8-af39-4344534458a2" name="E-mailSettings" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="93202b55-274d-40cb-ae2e-1c5d42e402b9" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="ea59dad7-9e52-497f-8217-b115b7847829" name="JustBuy.Sketches">
+    <elementDefinition Id="d8f62c72-a7b2-427c-8b47-e5d68b739700" />
+  </package>
+</useCaseModelRoot>

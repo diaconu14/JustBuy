@@ -1,0 +1,10 @@
+D:\DropBox\Dropbox\JustBuy\JustBuy\JustBuy.Web\bin\JustBuy.Web.dll
+D:\DropBox\Dropbox\JustBuy\JustBuy\JustBuy.Web\bin\JustBuy.Web.pdb
+D:\DropBox\Dropbox\JustBuy\JustBuy\JustBuy.Web\obj\Debug\ResolveAssemblyReference.cache
+D:\DropBox\Dropbox\JustBuy\JustBuy\JustBuy.Web\obj\Debug\JustBuy.Web.dll
+D:\DropBox\Dropbox\JustBuy\JustBuy\JustBuy.Web\obj\Debug\JustBuy.Web.pdb
+C:\Users\Dan\Dropbox\JustBuy\JustBuy\JustBuy.Web\bin\JustBuy.Web.dll
+C:\Users\Dan\Dropbox\JustBuy\JustBuy\JustBuy.Web\bin\JustBuy.Web.pdb
+C:\Users\Dan\Dropbox\JustBuy\JustBuy\JustBuy.Web\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Dan\Dropbox\JustBuy\JustBuy\JustBuy.Web\obj\Debug\JustBuy.Web.dll
+C:\Users\Dan\Dropbox\JustBuy\JustBuy\JustBuy.Web\obj\Debug\JustBuy.Web.pdb

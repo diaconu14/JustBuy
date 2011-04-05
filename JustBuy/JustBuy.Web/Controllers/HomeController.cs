@@ -30,5 +30,42 @@ namespace JustBuy.Web.Controllers
             return View();
         }
 
+        [HttpPost]
+        public ActionResult Categories()
+        {
+            return PartialView("Categories");
+        }
+
+        [HttpPost]
+        public ActionResult Manufacturers()
+        {
+            return PartialView("Manufacturers");
+        }
+
+        [HttpPost]
+        public ActionResult PopularTags()
+        {
+            return PartialView("PopularTags");
+        }
+
+        [HttpPost]
+        public ActionResult Information()
+        {
+            return PartialView("Information");
+        }
+
+        [HttpPost]
+        public ActionResult ShoppingCart()
+        {
+            return PartialView("ShoppingCart");
+        }
+
+        [HttpPost]
+        public ActionResult RecentlyViewed()
+        {
+            return PartialView("RecentlyViewed");
+        }
+
+      
     }
 }

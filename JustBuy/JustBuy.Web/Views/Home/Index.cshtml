@@ -1,8 +1,30 @@
 ﻿@{
     ViewBag.Title = "Home Page";
 }
-
 <h2>@ViewBag.Message</h2>
+<script type="text/javascript">
+    $(document).ready(function () {
+        RenderFeaturedProducts();
+    })
+    function RenderFeaturedProducts() {
+        $.ajax({
+            url: '@Url.Action("FeaturedProducts", "Products")',
+            data: {},
+            type: 'post',
+            complete: function (XMLHttpRequest, textStatus) {
+
+            },
+            error: function (XMLHttpRequest, textStatus, errorThrown) {
+                alert("error");
+
+            },
+            success: function (data, textStatus, XMLHttpRequest) {
+                $("#featuredProductsContainer").html(data);
+            }
+        });
+    }
+</script>
 <p>
-    To learn more about ASP.NET MVC visit <a href="http://asp.net/mvc" title="ASP.NET MVC Website">http://asp.net/mvc</a>.
-</p>
+    Index content</p>
+<div style="width: 100%;" id="featuredProductsContainer">
+</div>

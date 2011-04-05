@@ -1,0 +1,34 @@
+﻿@model IEnumerable<JustBuy.Web.Models.ProfileModel>
+
+<fieldset>
+    <legend>ProfileModel</legend>
+
+    <div class="display-label">Email</div>
+    <div class="display-field">@Model.Email</div>
+
+    <div class="display-label">Gender</div>
+    <div class="display-field">@Model.Gender</div>
+
+    <div class="display-label">FirstName</div>
+    <div class="display-field">@Model.FirstName</div>
+
+    <div class="display-label">LastName</div>
+    <div class="display-field">@Model.LastName</div>
+
+    <div class="display-label">DateOfBirth</div>
+    <div class="display-field">@String.Format("{0:g}", Model.DateOfBirth)</div>
+
+    <div class="display-label">Telephone</div>
+    <div class="display-field">@Model.Telephone</div>
+
+    <div class="display-label">Fax</div>
+    <div class="display-field">@Model.Fax</div>
+
+    <div class="display-label">WhantNewsletters</div>
+    <div class="display-field">@Model.WhantNewsletters</div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id=Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
+

@@ -60,6 +60,7 @@
   <ItemGroup>
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ProductsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -146,6 +147,30 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Home\Profile.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\Categories.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\Manufacturers.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\PopularTags.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\Information.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\ShoppingCart.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\RecentlyViewed.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Products\FeaturedProducts.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Products\NewProducts.cshtml" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />

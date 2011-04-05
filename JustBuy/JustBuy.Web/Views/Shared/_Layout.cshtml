@@ -4,22 +4,138 @@
     <title>@ViewBag.Title</title>
     <link href="@Url.Content("~/Content/Site.css")" rel="stylesheet" type="text/css" />
     <script src="@Url.Content("~/Scripts/jquery-1.4.4.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/jquery-1.4.4-vsdoc.js")" type="text/javascript"></script>
+    <script src="../../Scripts/jquery-1.4.4-vsdoc.js" type="text/javascript"></script>
 </head>
+<script type="text/javascript">
+    $(document).ready(function () {
 
+        RenderCategory();
+        RenderManufacturers();
+        RenderPopularTags();
+        RenderInformation();
+        RenderRecentlyViewed();
+    })
+
+    function RenderCategory() {
+        $.ajax({
+            url: '@Url.Action("Categories", "Home")',
+            data: {},
+            type: 'post',
+            complete: function (XMLHttpRequest, textStatus) {
+
+            },
+            error: function (XMLHttpRequest, textStatus, errorThrown) {
+                alert("error");
+
+            },
+            success: function (data, textStatus, XMLHttpRequest) {
+                $("#categoriesContainer").html(data);
+            }
+        });
+    }
+    function RenderManufacturers() {
+        $.ajax({
+            url: '@Url.Action("Manufacturers", "Home")',
+            data: {},
+            type: 'post',
+            complete: function (XMLHttpRequest, textStatus) {
+
+            },
+            error: function (XMLHttpRequest, textStatus, errorThrown) {
+                alert("error");
+
+            },
+            success: function (data, textStatus, XMLHttpRequest) {
+                $("#manufacturersContainer").html(data);
+            }
+        });
+    }
+
+    function RenderPopularTags() {
+        $.ajax({
+            url: '@Url.Action("PopularTags", "Home")',
+            data: {},
+            type: 'post',
+            complete: function (XMLHttpRequest, textStatus) {
+
+            },
+            error: function (XMLHttpRequest, textStatus, errorThrown) {
+                alert("error");
+
+            },
+            success: function (data, textStatus, XMLHttpRequest) {
+                $("#popularTagsContainer").html(data);
+            }
+        });
+    }
+
+    function RenderInformation() {
+        $.ajax({
+            url: '@Url.Action("Information", "Home")',
+            data: {},
+            type: 'post',
+            complete: function (XMLHttpRequest, textStatus) {
+
+            },
+            error: function (XMLHttpRequest, textStatus, errorThrown) {
+                alert("error");
+
+            },
+            success: function (data, textStatus, XMLHttpRequest) {
+                $("#informationContainer").html(data);
+            }
+        });
+    }
+    function RenderInformation() {
+        $.ajax({
+            url: '@Url.Action("ShoppingCart", "Home")',
+            data: {},
+            type: 'post',
+            complete: function (XMLHttpRequest, textStatus) {
+
+            },
+            error: function (XMLHttpRequest, textStatus, errorThrown) {
+                alert("error");
+
+            },
+            success: function (data, textStatus, XMLHttpRequest) {
+                $("#shoppingCartContainer").html(data);
+            }
+        });
+    }
+
+
+
+    function RenderRecentlyViewed() {
+        $.ajax({
+            url: '@Url.Action("RecentlyViewed", "Home")',
+            data: {},
+            type: 'post',
+            complete: function (XMLHttpRequest, textStatus) {
+
+            },
+            error: function (XMLHttpRequest, textStatus, errorThrown) {
+                alert("error");
+
+            },
+            success: function (data, textStatus, XMLHttpRequest) {
+                $("#recentlyViewedContainer").html(data);
+            }
+        });
+    }
+</script>
 <body>
     <div class="page">
-
         <div id="header">
             <div id="title">
-                <h1>My MVC Application</h1>
+                <h1>
+                    JustBuy</h1>
             </div>
-
             <div id="logindisplay">
                 @Html.Partial("_LogOnPartial")
             </div>
-
             <div id="menucontainer">
-
                 <ul id="menu">
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
                     <li>@Html.ActionLink("About", "About", "Home")</li>
@@ -30,10 +146,28 @@
             </div>
         </div>
         <div id="main">
-            @RenderBody()
-            <div id="footer">
+            <div style="background-color: #e8ebeb; float: left; width: 20%;">
+                <div style="width: 100%;" id="categoriesContainer">
+                </div>
+                <div style="width: 100%;" id="manufacturersContainer">
+                </div>
+                <div style="width: 100%;" id="popularTagsContainer">
+                </div>
+                <div style="width: 100%;" id="informationContainer">
+                </div>
+            </div>
+            <div style="background-color: White; float: left; width: 60%;">@RenderBody()
+            </div>
+            <div style="background-color: #e8ebeb; float: left; width: 20%;">
+                <div style="width: 100%;" id="shoppingCartContainer">
+                </div>
+                <div style="width: 100%;" id="recentlyViewedContainer">
+                </div>
             </div>
         </div>
-    </div>
+        
+    </div><div id="footer" style="width:100%;clear:both">
+            Copyright © 2011 JustBuy. All rights reserved.
+        </div>
 </body>
 </html>

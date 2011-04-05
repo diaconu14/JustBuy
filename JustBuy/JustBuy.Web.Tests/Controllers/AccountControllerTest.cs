@@ -4,6 +4,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 using System.Web.Security;
+using JustBuy.Web.Models.Account;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using JustBuy.Web;
 using JustBuy.Web.Controllers;

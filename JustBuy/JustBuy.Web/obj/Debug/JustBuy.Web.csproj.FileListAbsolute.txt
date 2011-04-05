@@ -8,3 +8,8 @@ C:\Users\Dan\Dropbox\JustBuy\JustBuy\JustBuy.Web\bin\JustBuy.Web.pdb
 C:\Users\Dan\Dropbox\JustBuy\JustBuy\JustBuy.Web\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Dan\Dropbox\JustBuy\JustBuy\JustBuy.Web\obj\Debug\JustBuy.Web.dll
 C:\Users\Dan\Dropbox\JustBuy\JustBuy\JustBuy.Web\obj\Debug\JustBuy.Web.pdb
+D:\Programming tools\Git\Proj\JustBuy\JustBuy\JustBuy.Web\bin\JustBuy.Web.dll
+D:\Programming tools\Git\Proj\JustBuy\JustBuy\JustBuy.Web\bin\JustBuy.Web.pdb
+D:\Programming tools\Git\Proj\JustBuy\JustBuy\JustBuy.Web\obj\Debug\ResolveAssemblyReference.cache
+D:\Programming tools\Git\Proj\JustBuy\JustBuy\JustBuy.Web\obj\Debug\JustBuy.Web.dll
+D:\Programming tools\Git\Proj\JustBuy\JustBuy\JustBuy.Web\obj\Debug\JustBuy.Web.pdb

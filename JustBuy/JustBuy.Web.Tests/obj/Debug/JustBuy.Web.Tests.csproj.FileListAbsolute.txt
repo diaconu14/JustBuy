@@ -14,3 +14,11 @@ C:\Users\Dan\Dropbox\JustBuy\JustBuy\JustBuy.Web.Tests\bin\Debug\JustBuy.Web.pdb
 C:\Users\Dan\Dropbox\JustBuy\JustBuy\JustBuy.Web.Tests\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Dan\Dropbox\JustBuy\JustBuy\JustBuy.Web.Tests\obj\Debug\JustBuy.Web.Tests.dll
 C:\Users\Dan\Dropbox\JustBuy\JustBuy\JustBuy.Web.Tests\obj\Debug\JustBuy.Web.Tests.pdb
+D:\Programming tools\Git\Proj\JustBuy\JustBuy\JustBuy.Web.Tests\bin\Debug\JustBuy.Web.Tests.dll.config
+D:\Programming tools\Git\Proj\JustBuy\JustBuy\JustBuy.Web.Tests\bin\Debug\JustBuy.Web.Tests.dll
+D:\Programming tools\Git\Proj\JustBuy\JustBuy\JustBuy.Web.Tests\bin\Debug\JustBuy.Web.Tests.pdb
+D:\Programming tools\Git\Proj\JustBuy\JustBuy\JustBuy.Web.Tests\bin\Debug\JustBuy.Web.dll
+D:\Programming tools\Git\Proj\JustBuy\JustBuy\JustBuy.Web.Tests\bin\Debug\JustBuy.Web.pdb
+D:\Programming tools\Git\Proj\JustBuy\JustBuy\JustBuy.Web.Tests\obj\Debug\ResolveAssemblyReference.cache
+D:\Programming tools\Git\Proj\JustBuy\JustBuy\JustBuy.Web.Tests\obj\Debug\JustBuy.Web.Tests.dll
+D:\Programming tools\Git\Proj\JustBuy\JustBuy\JustBuy.Web.Tests\obj\Debug\JustBuy.Web.Tests.pdb

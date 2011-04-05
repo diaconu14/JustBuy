@@ -9,10 +9,62 @@
   <RecentFiles>
     <RecentFiles>
       <File id="37B2BBDB-E93E-4963-BC3E-983D4A01EFD2/d:Controllers/f:AccountControllerTest.cs" caret="0" fromTop="0" />
-      <File id="9BA940AF-5C3A-4FB3-886D-71C48035126B/d:Controllers/f:HomeController.cs" caret="362" fromTop="19" />
+      <File id="9BA940AF-5C3A-4FB3-886D-71C48035126B/d:Models/f:BlogModel.cs" caret="0" fromTop="0" />
+      <File id="9BA940AF-5C3A-4FB3-886D-71C48035126B/d:Models/f:ProductModel.cs" caret="0" fromTop="0" />
+      <File id="9BA940AF-5C3A-4FB3-886D-71C48035126B/d:Views/d:Home/f:Index.cshtml" caret="0" fromTop="0" />
+      <File id="9BA940AF-5C3A-4FB3-886D-71C48035126B/d:Views/d:Home/f:Search.cshtml" caret="173" fromTop="8" />
+      <File id="9BA940AF-5C3A-4FB3-886D-71C48035126B/d:Views/d:Home/f:Contact.cshtml" caret="711" fromTop="19" />
+      <File id="9BA940AF-5C3A-4FB3-886D-71C48035126B/d:Controllers/f:AccountController.cs" caret="4095" fromTop="16" />
+      <File id="9BA940AF-5C3A-4FB3-886D-71C48035126B/d:Models/d:Account/f:ValidatePasswordLengthAttribute.cs" caret="219" fromTop="9" />
+      <File id="9BA940AF-5C3A-4FB3-886D-71C48035126B/d:Models/d:Account/f:LogOnModel.cs" caret="72" fromTop="2" />
+      <File id="9BA940AF-5C3A-4FB3-886D-71C48035126B/d:Models/d:Account/f:RegisterModel.cs" caret="91" fromTop="3" />
+      <File id="9BA940AF-5C3A-4FB3-886D-71C48035126B/d:Models/d:Account/f:IMembershipService.cs" caret="50" fromTop="2" />
+      <File id="9BA940AF-5C3A-4FB3-886D-71C48035126B/d:Models/d:Account/f:AccountMembershipService.cs" caret="2783" fromTop="69" />
+      <File id="9BA940AF-5C3A-4FB3-886D-71C48035126B/d:Models/d:Account/f:IFormsAuthenticationService.cs" caret="22" fromTop="0" />
+      <File id="9BA940AF-5C3A-4FB3-886D-71C48035126B/d:Models/d:Account/f:FormsAuthenticationService.cs" caret="61" fromTop="3" />
+      <File id="9BA940AF-5C3A-4FB3-886D-71C48035126B/d:Models/d:Account/f:AccountValidation.cs" caret="1120" fromTop="24" />
+      <File id="9BA940AF-5C3A-4FB3-886D-71C48035126B/d:Models/f:ContactModel.cs" caret="0" fromTop="0" />
+      <File id="9BA940AF-5C3A-4FB3-886D-71C48035126B/d:Controllers/f:HomeController.cs" caret="350" fromTop="16" />
+      <File id="9BA940AF-5C3A-4FB3-886D-71C48035126B/d:Views/d:Account/f:LogOn.cshtml" caret="26" fromTop="0" />
+      <File id="9BA940AF-5C3A-4FB3-886D-71C48035126B/d:Views/d:Account/f:Register.cshtml" caret="34" fromTop="0" />
+      <File id="9BA940AF-5C3A-4FB3-886D-71C48035126B/d:Views/d:Account/f:ChangePasswordSuccess.cshtml" caret="0" fromTop="0" />
+      <File id="9BA940AF-5C3A-4FB3-886D-71C48035126B/d:Views/d:Account/f:ChangePassword.cshtml" caret="45" fromTop="0" />
+      <File id="9BA940AF-5C3A-4FB3-886D-71C48035126B/d:Views/d:Shared/f:_Layout.cshtml" caret="567" fromTop="20" />
+      <File id="9BA940AF-5C3A-4FB3-886D-71C48035126B/d:Models/f:AdressModel.cs" caret="314" fromTop="9" />
+      <File id="9BA940AF-5C3A-4FB3-886D-71C48035126B/d:Models/f:ProfileModel.cs" caret="384" fromTop="12" />
+      <File id="9BA940AF-5C3A-4FB3-886D-71C48035126B/d:Views/d:Home/f:Profile.cshtml" caret="0" fromTop="0" />
     </RecentFiles>
     <RecentEdits>
-      <File id="9BA940AF-5C3A-4FB3-886D-71C48035126B/d:Controllers/f:HomeController.cs" caret="0" fromTop="0" />
+      <File id="9BA940AF-5C3A-4FB3-886D-71C48035126B/d:Models/d:Account/f:ValidatePasswordLengthAttribute.cs" caret="1520" fromTop="10" />
+      <File id="9BA940AF-5C3A-4FB3-886D-71C48035126B/d:Models/d:Account/f:ValidatePasswordLengthAttribute.cs" caret="1520" fromTop="14" />
+      <File id="9BA940AF-5C3A-4FB3-886D-71C48035126B/d:Models/d:Account/f:ValidatePasswordLengthAttribute.cs" caret="1520" fromTop="27" />
+      <File id="9BA940AF-5C3A-4FB3-886D-71C48035126B/d:Models/d:Account/f:ValidatePasswordLengthAttribute.cs" caret="1520" fromTop="15" />
+      <File id="9BA940AF-5C3A-4FB3-886D-71C48035126B/d:Models/d:Account/f:ValidatePasswordLengthAttribute.cs" caret="1520" fromTop="13" />
+      <File id="9BA940AF-5C3A-4FB3-886D-71C48035126B/d:Models/d:Account/f:ValidatePasswordLengthAttribute.cs" caret="1520" fromTop="15" />
+      <File id="9BA940AF-5C3A-4FB3-886D-71C48035126B/d:Models/d:Account/f:ValidatePasswordLengthAttribute.cs" caret="1520" fromTop="23" />
+      <File id="9BA940AF-5C3A-4FB3-886D-71C48035126B/d:Models/d:Account/f:ValidatePasswordLengthAttribute.cs" caret="1520" fromTop="23" />
+      <File id="9BA940AF-5C3A-4FB3-886D-71C48035126B/d:Models/d:Account/f:ValidatePasswordLengthAttribute.cs" caret="1517" fromTop="10" />
+      <File id="9BA940AF-5C3A-4FB3-886D-71C48035126B/d:Models/d:Account/f:ValidatePasswordLengthAttribute.cs" caret="1517" fromTop="42" />
+      <File id="9BA940AF-5C3A-4FB3-886D-71C48035126B/d:Models/d:Account/f:ValidatePasswordLengthAttribute.cs" caret="219" fromTop="9" />
+      <File id="9BA940AF-5C3A-4FB3-886D-71C48035126B/d:Models/d:Account/f:AccountValidation.cs" caret="2314" fromTop="44" />
+      <File id="9BA940AF-5C3A-4FB3-886D-71C48035126B/d:Models/d:Account/f:LogOnModel.cs" caret="72" fromTop="2" />
+      <File id="9BA940AF-5C3A-4FB3-886D-71C48035126B/d:Models/d:Account/f:RegisterModel.cs" caret="91" fromTop="3" />
+      <File id="9BA940AF-5C3A-4FB3-886D-71C48035126B/d:Models/d:Account/f:IMembershipService.cs" caret="50" fromTop="2" />
+      <File id="9BA940AF-5C3A-4FB3-886D-71C48035126B/d:Models/d:Account/f:AccountMembershipService.cs" caret="2783" fromTop="69" />
+      <File id="9BA940AF-5C3A-4FB3-886D-71C48035126B/d:Models/d:Account/f:IFormsAuthenticationService.cs" caret="22" fromTop="0" />
+      <File id="9BA940AF-5C3A-4FB3-886D-71C48035126B/d:Models/d:Account/f:FormsAuthenticationService.cs" caret="61" fromTop="3" />
+      <File id="9BA940AF-5C3A-4FB3-886D-71C48035126B/d:Models/f:ContactModel.cs" caret="0" fromTop="0" />
+      <File id="9BA940AF-5C3A-4FB3-886D-71C48035126B/d:Models/f:ProfileModel.cs" caret="570" fromTop="25" />
+      <File id="9BA940AF-5C3A-4FB3-886D-71C48035126B/d:Models/f:ProfileModel.cs" caret="570" fromTop="15" />
+      <File id="9BA940AF-5C3A-4FB3-886D-71C48035126B/d:Views/d:Shared/f:_Layout.cshtml" caret="962" fromTop="27" />
+      <File id="9BA940AF-5C3A-4FB3-886D-71C48035126B/d:Controllers/f:HomeController.cs" caret="549" fromTop="26" />
+      <File id="9BA940AF-5C3A-4FB3-886D-71C48035126B/d:Views/d:Account/f:LogOn.cshtml" caret="44" fromTop="0" />
+      <File id="9BA940AF-5C3A-4FB3-886D-71C48035126B/d:Views/d:Account/f:Register.cshtml" caret="34" fromTop="0" />
+      <File id="9BA940AF-5C3A-4FB3-886D-71C48035126B/d:Views/d:Account/f:ChangePassword.cshtml" caret="45" fromTop="0" />
+      <File id="9BA940AF-5C3A-4FB3-886D-71C48035126B/d:Models/f:ProfileModel.cs" caret="146" fromTop="6" />
+      <File id="9BA940AF-5C3A-4FB3-886D-71C48035126B/d:Models/f:ProfileModel.cs" caret="561" fromTop="15" />
+      <File id="9BA940AF-5C3A-4FB3-886D-71C48035126B/d:Models/f:ProfileModel.cs" caret="383" fromTop="12" />
+      <File id="9BA940AF-5C3A-4FB3-886D-71C48035126B/d:Models/f:AdressModel.cs" caret="347" fromTop="11" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
@@ -22,8 +74,22 @@
     <Providers />
   </UnitTestRunner>
   <UnitTestRunnerNUnit>
-    <NUnitInstallDir IsNull="False">
-    </NUnitInstallDir>
+    <NUnitInstallDir>C:\Program Files (x86)\NUnit 2.5.2\bin\net-2.0\</NUnitInstallDir>
     <UseAddins>Never</UseAddins>
   </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="prop" priority="14" />
+      <Item value="string" priority="15" />
+      <Item value="public" priority="3" />
+      <Item value="ActionResult`0" priority="0" />
+      <Item value="return" priority="1" />
+      <Item value="View`0" priority="1" />
+      <Item value="bool" priority="1" />
+      <Item value="IEquatable" priority="0" />
+      <Item value="Authorize" priority="0" />
+      <Item value="Guid`0" priority="0" />
+      <Item value="enum" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
 </Configuration>

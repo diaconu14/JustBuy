@@ -1,0 +1,28 @@
+﻿@model JustBuy.Web.Models.BlogModel
+@{
+    ViewBag.Title = "Blog";
+}
+<h2>
+    Blog</h2>
+<script src="@Url.Content("~/Scripts/jquery.validate.min.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/jquery.validate.unobtrusive.min.js")" type="text/javascript"></script>
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(true)
+    <fieldset>
+        <legend>BlogModel</legend>
+        @{
+foreach (JustBuy.Web.Models.BlogPost blogPost in Model.BlogPosts)
+{
+            @Html.Partial("BlogPost", blogPost)
+}
+            
+        }
+        <p>
+            <input type="submit" value="Save" />
+        </p>
+    </fieldset>
+}
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

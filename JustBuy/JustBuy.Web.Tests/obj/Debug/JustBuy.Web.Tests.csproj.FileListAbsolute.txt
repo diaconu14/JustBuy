@@ -22,3 +22,11 @@ D:\Programming tools\Git\Proj\JustBuy\JustBuy\JustBuy.Web.Tests\bin\Debug\JustBu
 D:\Programming tools\Git\Proj\JustBuy\JustBuy\JustBuy.Web.Tests\obj\Debug\ResolveAssemblyReference.cache
 D:\Programming tools\Git\Proj\JustBuy\JustBuy\JustBuy.Web.Tests\obj\Debug\JustBuy.Web.Tests.dll
 D:\Programming tools\Git\Proj\JustBuy\JustBuy\JustBuy.Web.Tests\obj\Debug\JustBuy.Web.Tests.pdb
+C:\JustBuy\JustBuy\JustBuy.Web.Tests\bin\Debug\JustBuy.Web.Tests.dll.config
+C:\JustBuy\JustBuy\JustBuy.Web.Tests\bin\Debug\JustBuy.Web.Tests.dll
+C:\JustBuy\JustBuy\JustBuy.Web.Tests\bin\Debug\JustBuy.Web.Tests.pdb
+C:\JustBuy\JustBuy\JustBuy.Web.Tests\bin\Debug\JustBuy.Web.dll
+C:\JustBuy\JustBuy\JustBuy.Web.Tests\bin\Debug\JustBuy.Web.pdb
+C:\JustBuy\JustBuy\JustBuy.Web.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\JustBuy\JustBuy\JustBuy.Web.Tests\obj\Debug\JustBuy.Web.Tests.dll
+C:\JustBuy\JustBuy\JustBuy.Web.Tests\obj\Debug\JustBuy.Web.Tests.pdb

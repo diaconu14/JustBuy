@@ -1,9 +1,22 @@
 ﻿using System.Web.Mvc;
+using System.Web.Routing;
+using JustBuy.Web.Models.Account;
 
 namespace JustBuy.Web.Controllers
 {
     public class HomeController : Controller
     {
+        //public IFormsAuthenticationService FormsService { get; set; }
+        //public IMembershipService MembershipService { get; set; }
+
+        //protected override void Initialize(RequestContext requestContext)
+        //{
+        //    if (FormsService == null) { FormsService = new FormsAuthenticationService(); }
+        //    if (MembershipService == null) { MembershipService = new AccountMembershipService(); }
+
+        //    base.Initialize(requestContext);
+        //}
+
         public ActionResult Index()
         {
             ViewBag.Message = "Welcome to ASP.NET MVC!";
@@ -27,7 +40,7 @@ namespace JustBuy.Web.Controllers
         [Authorize]
         public ActionResult Profile()
         {
-            return View();
+            return Redirect("/Profile");
         }
 
         [HttpPost]
@@ -65,7 +78,5 @@ namespace JustBuy.Web.Controllers
         {
             return PartialView("RecentlyViewed");
         }
-
-      
     }
 }

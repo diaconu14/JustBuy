@@ -18,7 +18,6 @@ namespace JustBuy.Web.Models
             }
             set { blogPosts = value; }
         }
-
         public bool Enabled { get; set; }
         public bool AllowAnonimusComments { get; set; }
         public bool Notify { get; set; }
